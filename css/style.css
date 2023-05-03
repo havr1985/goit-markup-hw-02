@@ -1,0 +1,109 @@
+:root{
+    --body-text-color:#434455;
+    --header-text-color:#2E2F42;
+    --primary-brend-color:#4D5AE5;
+    --pressed-state-color:#404BBF;
+    --primary-color-white:#ffffff;
+    --light-mode-color: #F4F4FD;
+}
+
+body{
+    background-color:var(--primary-color-white);
+    color:var(--body-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*Header*/
+.list{
+    list-style: none;
+}
+.logo{
+    color:var(--header-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.site-nav .link{
+    color: var(--header-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--primary-brend-color);
+}
+.adres .link{
+    color:var(--body-text-color);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.adres .link:hover,
+.adres .link:focus{
+     color: var(--pressed-state-color);
+}
+/*Hero*/
+.hero{
+    background-color:var(--header-text-color);
+}
+.hero-title{
+    color: var(--primary-color-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+.hero-btn{
+    background-color: var(--primary-brend-color);
+    color: var(--primary-color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+/*Sections*/
+.section-title{
+    color:var(--header-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+.advantage-title,
+.team-title{
+    color:var(--header-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+.teambg{
+    background-color: var(--light-mode-color);
+}
+
+/*Footer*/
+.bottow{
+    background-color: var(--header-text-color);
+}
+.bottow-text{
+    color:var(--light-mode-color) ;
+}
+.logo-bottow{
+    color: var(--light-mode-color);
+    font-family: Raleway, sans-serif;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
