@@ -78,7 +78,8 @@ body{
     text-align: center;
 }
 .advantage-title,
-.team-title{
+.team-title,
+.project-title{
     color:var(--header-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -106,4 +107,20 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+/*Portfolio page*/
+.filter-btn{
+    background-color: var(--light-mode-color);
+    color: var(--primary-brend-color);
+    font-weight: 500;
+    letter-spacing: 0.04;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--pressed-state-color);
+    color: var(--primary-color-white);
+}
+.projects .link{
+    text-decoration: none;
+    color: inherit;
 }
