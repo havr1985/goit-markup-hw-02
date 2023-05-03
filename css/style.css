@@ -20,13 +20,19 @@ body{
     list-style: none;
 }
 .logo{
-    color:var(--header-text-color);
+    color:var(--primary-brend-color);
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.link{
     text-decoration: none;
+}
+.logoelement{
+    color: var(--header-text-color);
 }
 .site-nav .link{
     color: var(--header-text-color);
@@ -37,17 +43,19 @@ body{
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: var(--primary-brend-color);
+    color: var(--pressed-state-color);
 }
-.adres .link{
-    color:var(--body-text-color);
+.kontakts{
     font-style: normal;
+}
+.kontakts-list .link{
+    color:var(--body-text-color);
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
 }
-.adres .link:hover,
-.adres .link:focus{
+.kontakts-list .link:hover,
+.kontakts-list .link:focus{
      color: var(--pressed-state-color);
 }
 /*Hero*/
@@ -60,14 +68,21 @@ body{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 .hero-btn{
     background-color: var(--primary-brend-color);
     color: var(--primary-color-white);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--pressed-state-color);
 }
 /*Sections*/
 .section-title{
@@ -76,6 +91,8 @@ body{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .advantage-title,
 .team-title,
@@ -84,9 +101,15 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-text{
+    font-size: 16px;
 }
 
-
+.team-list{
+    background-color: var(--primary-color-white);
+}
 .teambg{
     background-color: var(--light-mode-color);
 }
@@ -99,21 +122,28 @@ body{
     color:var(--light-mode-color) ;
 }
 .logo-bottow{
-    color: var(--light-mode-color);
+    color: var(--primary-brend-color);
     font-family: Raleway, sans-serif;
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo-el-footer{
+    color: var(--light-mode-color);
 }
 /*Portfolio page*/
 .filter-btn{
     background-color: var(--light-mode-color);
     color: var(--primary-brend-color);
+    font-family: Roboto, sans-serif;
     font-weight: 500;
-    letter-spacing: 0.04;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus{
